@@ -1,0 +1,17 @@
+{
+  "name": "l33t-ads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-ads": "^1.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
