@@ -1,0 +1,13 @@
+
+version: "3"
+services:
+  server:
+    restart: no
+    build:
+      context: .
+    command: npx ts-node ./src/index.ts
+    environment:
+      NODE_ENV: production
+      BUILDKIT_PROGRESS: plain docker compose build
+    ports:
+      - 1339:1339
